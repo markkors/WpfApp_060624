@@ -24,8 +24,7 @@ namespace WpfApp_060624.Converters
                 return Visibility.Collapsed;
             }
                 
-           
-                
+                           
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

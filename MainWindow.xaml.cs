@@ -25,6 +25,10 @@ namespace WpfApp_060624
         public MainWindow()
         {
             InitializeComponent();
+            cbMyComboBox.Items.Add("H");
+            cbMyComboBox.Items.Add("D");
+            cbMyComboBox.Items.Add("C");
+            cbMyComboBox.Items.Add("S");
         }
 
        
