@@ -72,6 +72,14 @@ namespace WpfApp_060624.UserControls
         private void OnSetSuitChanged(DependencyPropertyChangedEventArgs e)
         {
             lblSuit.Content = e.NewValue.ToString();
+            if(e.NewValue.ToString() == "♥" || e.NewValue.ToString() == "♦")
+            {
+                lblSuit.Foreground = Brushes.Red;
+            }
+            else
+            {
+                lblSuit.Foreground = Brushes.Black;
+            }
         }
 
 
